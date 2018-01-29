@@ -1,0 +1,55 @@
+Week 2 - Exercise 1
+
+1. Newton Second Law
+
+STORE "Massa Benda" with 600
+STORE "Percepatan Benda" with 2
+STORE "Resultan Gaya" without any value
+
+CALCULATE "Massa Benda" times "Percepatan Benda"
+SET "Resultan Gaya" with calculation result
+
+Display "Resultan Gaya"
+
+
+2.Tahun Kabisat
+
+STORE "Tahun"
+
+IF "Tahun" habis dibagi 4
+  THEN 
+	habis dibagi 100 
+  THEN
+	habis dibagi 400
+  THEN
+	DISPLAY "Tahun kabisat"
+ELSE
+	DISPLAY "Bukan tahun kabisat"
+
+
+3.Laundry Day
+
+STORE "Pakaian" with 0
+
+WHILE "Pakaian" < 20
+  ADD "Pakaian" by 1
+
+DISPLAY "Nyalakan Mesin Cuci"
+
+
+4.Periksa Kuku
+
+STORE "Murid" with 0
+
+WHILE "Murid" < 40
+	Berkeliling kelas
+	Periksa kuku "Murid"
+	IF "Murid" Ber-kuku panjang THEN
+		Dapat hukuman
+	ELSE
+		Dapat pujian
+
+ENDWHILE
+
+
+	
